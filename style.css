@@ -50,6 +50,15 @@ body  :after
   position: relative;
   
 }
+.container :before
+{
+  content: '';
+  position: absolute;
+  bottom: -150px;
+  width: 100%;
+  height: 60px;
+  background: #000;
+}
 .box
 {
   position: relative;
